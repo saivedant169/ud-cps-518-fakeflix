@@ -9,7 +9,6 @@
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Screenshots](#screenshots)
 - [Run Locally](#run-locally)
 - [Requirements](#requirements)
 - [Testing](#testing)
