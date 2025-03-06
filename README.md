@@ -15,8 +15,7 @@
 - [License](#license)
 
 ## Demo
-[Video Demo](https://user-images.githubusercontent.com/25078541/123811962-01474580-d8f4-11eb-83ba-66cded3f321f.mp4)
-
+[Watch the demo video](123811962-01474580-d8f4-11eb-83ba-66cded3f321f.mp4)
 ---
 
 ## About
