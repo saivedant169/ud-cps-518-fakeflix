@@ -40,7 +40,7 @@ const Navbar = () => {
 				exit="hidden"
 			>
 				<Link to="/">
-					<img className="Navbar__logo" src={width >= 600 ? LOGO_URL : MOBILE_LOGO_URL} alt="" />
+					<img className="Navbar__logo" src={width >= 600 ? LOGO_URL : MOBILE_LOGO_URL} alt="logo" />
 				</Link>
 				{width >= 1024 ? (
 					<ul className="Navbar__primarynav Navbar__navlinks">
@@ -127,7 +127,7 @@ const Navbar = () => {
 							<img
 								className="Navbar__navprofile--avatar Navbar__navprofile--toggler"
 								src={currentUser && currentUser.photoURL ? currentUser.photoURL : PROFILE_PIC_URL}
-								alt="Profile Picture"
+								alt="Profile"
 							/>
 							<FaCaretDown className="Navbar__navprofile--toggler Navbar__navprofile--caret" />
 							<div className={`Navbar__navprofile--content ${profileNav ? "active" : ""}`}>

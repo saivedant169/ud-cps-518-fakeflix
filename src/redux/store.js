@@ -18,4 +18,6 @@ export const store = createStore(rootReducer, composeWithDevTools(applyMiddlewar
 sagaMiddleware.run(rootSaga);
 export const persistor = persistStore(store);
 
-export default { store, persistor };
+const reduxStore = { store, persistor };
+export default reduxStore;
+

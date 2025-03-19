@@ -83,7 +83,7 @@ const SignUp = () => {
 						validate: {
 							matchesPreviousPassword: (value) => {
 								const { password } = getValues();
-								return value && password === value || "Passwords should match!";
+								return (value && password === value) || "Passwords should match!";
 							}
 						}
 					})}
