@@ -19,3 +19,29 @@ export const randomize = data => (
 export const truncate = (text, n) => (
     text?.length > n ? text.substr(0, n - 1) + "..." : text
 );
+
+// const getOneMonthAgoReleaseDate = () => {
+//     let date = new Date();
+//     date.setMonth(date.getMonth() - 1);
+//     let formattedDate = date.toJSON().slice(0,10);
+//     return formattedDate;
+// };
+
+// const dateToYearOnly = date => date.slice(0,4);
+
+// const capitalizeFirstLetter = text =>
+//     text.charAt(0).toUpperCase() + text.slice(1);
+
+// const randomize = data =>
+//     Math.floor(Math.random() * data.length - 1);
+
+// const truncate = (text, n) =>
+//     text?.length > n ? text.substr(0, n - 1) + "..." : text;
+
+// module.exports = {
+//     getOneMonthAgoReleaseDate,
+//     dateToYearOnly,
+//     capitalizeFirstLetter,
+//     randomize,
+//     truncate,
+// };
